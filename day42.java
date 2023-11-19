@@ -32,8 +32,6 @@ public class day42 {
             }
 
         } while (pilihan != 4);
-
-        scanner.close();
     }
 
     private static void tampilkanMenu() {
