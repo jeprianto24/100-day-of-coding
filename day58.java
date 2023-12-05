@@ -19,12 +19,12 @@ public class day58 {
     }
 
     public static void main(String[] args) {
-        day58 person = new day58();
+        day58 orang = new day58();
 
-        person.setNama("Jepp");
-        person.setUmur(20);
+        orang.setNama("Jepp");
+        orang.setUmur(20);
 
-        System.out.println("Nama: " + person.getNama());
-        System.out.println("Umur: " + person.getUmur());
+        System.out.println("Nama: " + orang.getNama());
+        System.out.println("Umur: " + orang.getUmur());
     }
 }
