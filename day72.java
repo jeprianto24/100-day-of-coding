@@ -12,13 +12,13 @@ public class day72 {
         double c = sc.nextDouble();
         System.out.print("Masukkan panjang sisi d: ");
         double d = sc.nextDouble();
-        System.out.print("Masukkan tinggi trapesium: ");
+        System.out.print("Masukkan tinggi jajarGenjang: ");
         double h = sc.nextDouble();
 
         double luas = hitungLuas(a, b, h);
         double keliling = hitungKeliling(a, b, c, d);
-        System.out.println("Luas trapesium: " + luas);
-        System.out.println("Keliling trapesium: " + keliling);
+        System.out.println("Luas jajarGenjang: " + luas);
+        System.out.println("Keliling jajarGenjang: " + keliling);
     }
     public static double hitungLuas(double a, double b, double h) {
         return 0.5 * (a + b) * h;
