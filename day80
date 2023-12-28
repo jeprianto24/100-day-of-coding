@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class day80 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Masukkan teks: ");
+        String inputText = scanner.nextLine();
+
+        
+        String uppercaseText = inputText.toUpperCase();
+        System.out.println("Huruf Kapital: " + uppercaseText);
+
+       
+        String lowercaseText = inputText.toLowerCase();
+        System.out.println("Huruf Kecil: " + lowercaseText);
+        String capitalizeText = capitalizeFirstLetter(inputText);
+        System.out.println("Awalan Huruf Kapital: " + capitalizeText);
+    }
+
+    private static String capitalizeFirstLetter(String text) {
+        if (text == null || text.isEmpty()) {
+            return text;
+        }
+        return text.substring(0, 1).toUpperCase() + text.substring(1);
+    }
+}
